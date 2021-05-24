@@ -2,17 +2,17 @@ import os
 
 class Config():
   #Get it from @botfather
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "1871654257:AAFFvY587WlDp53C5A9f-YCwg4EcVlVaA4A")
   # Your bot updates channel username without @ or leave empty
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "premiumcollectionforyou")
   # Heroku postgres DB URL
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   # get it from my.telegram.org
-  APP_ID = os.environ.get("APP_ID", 123456)
-  API_HASH = os.environ.get("API_HASH", "")
+  APP_ID = os.environ.get("APP_ID", 1750459)
+  API_HASH = os.environ.get("API_HASH", "d37e51e8f186115332f0e57b2cc3420d")
   # Sudo users( goto @JVToolsBot and send /id to get your id)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1204927413 1405957830").split()))
-  SUDO_USERS.append(1204927413)
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1010583341").split()))
+  SUDO_USERS.append(1010583341)
   SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():
